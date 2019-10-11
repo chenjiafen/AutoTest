@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17fcc3b3-e98c-465f-ad05-8facc168b1ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PyaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/IgnoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/BasicAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SouitConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5/target/classes/com/course/testng/suite/SouitConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Chapter5/target/" />
@@ -17,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="258">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="e#356#357#0" expanded="true" />
                 <element signature="e#401#402#0" expanded="true" />
@@ -53,14 +55,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="390">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/IgnoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -118,11 +138,12 @@
       <list>
         <option value="$PROJECT_DIR$/Chapter/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" />
-        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/LoginTest.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PyaTest.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/IgnoreTest.java" />
       </list>
     </option>
   </component>
@@ -139,9 +160,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="104" />
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -257,8 +278,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml">
-    <configuration name="BasicAnnotation (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.IgnoreTest (1)">
+    <configuration name="BasicAnnotation (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
         <pattern>
@@ -292,36 +313,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnnotation.testcase1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IgnoreTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="PATTERN" value="com.course.testng.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
-      <option name="METHOD_NAME" value="testcase1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.IgnoreTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicAnnotation.testcase2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IgnoreTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Chapter5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="PATTERN" value="com.course.testng.suite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.course.testng" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
-      <option name="METHOD_NAME" value="testcase2" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.IgnoreTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -340,11 +359,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.IgnoreTest (1)" />
+        <item itemvalue="TestNG.IgnoreTest" />
         <item itemvalue="TestNG./Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" />
         <item itemvalue="TestNG.BasicAnnotation" />
-        <item itemvalue="TestNG.BasicAnnotation (2)" />
-        <item itemvalue="TestNG.BasicAnnotation.testcase2" />
-        <item itemvalue="TestNG.BasicAnnotation.testcase1" />
+        <item itemvalue="TestNG.BasicAnnotation (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -358,69 +377,76 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570771338821</updated>
-      <workItem from="1570771340509" duration="6869000" />
+      <workItem from="1570771340509" duration="9203000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicAnnotation - 2019.10.11 at 13h 46m 27s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 13m 05s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation_(1) - 2019.10.11 at 14h 18m 54s.xml">
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 13m 24s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicAnnotation_(1) - 2019.10.11 at 17h 14m 52s.xml">
       <configuration name="BasicAnnotation (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation_testcase1 - 2019.10.11 at 14h 22m 50s.xml">
-      <configuration name="BasicAnnotation.testcase1" configurationId="TestNG" />
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 17m 09s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation_testcase2 - 2019.10.11 at 14h 23m 08s.xml">
-      <configuration name="BasicAnnotation.testcase2" configurationId="TestNG" />
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 18m 02s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2019.10.11 at 14h 25m 27s.xml">
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 18m 21s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 18m 51s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicAnnotation - 2019.10.11 at 17h 20m 31s.xml">
       <configuration name="BasicAnnotation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation - 2019.10.11 at 14h 28m 40s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.11 at 17h 23m 57s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicAnnotation_(2) - 2019.10.11 at 14h 36m 10s.xml">
-      <configuration name="BasicAnnotation (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BasicAnnotation - 2019.10.11 at 14h 48m 04s.xml">
-      <configuration name="BasicAnnotation" configurationId="TestNG" />
+    <history-entry file="IgnoreTest - 2019.10.11 at 17h 45m 52s.xml">
+      <configuration name="IgnoreTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6869000" />
+    <option name="totallyTimeSpent" value="9203000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
-      <window_info id="UI Designer" />
+      <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32771084" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3477707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,6 +454,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutoTest$_Users_chenjiafeng__AutoTest_Chapter5_src_main_resources_suite_xml.ic" NAME="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml Coverage Results" MODIFIED="1570785181399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.txt">
@@ -437,35 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,6 +480,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/PyaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -491,10 +513,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml">
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/SouitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="390">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/suite/IgnoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

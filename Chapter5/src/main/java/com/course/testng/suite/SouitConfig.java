@@ -1,7 +1,6 @@
 package com.course.testng.suite;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 /**
  * @author tyler.chen
@@ -17,5 +16,16 @@ public class SouitConfig {
     @AfterSuite
     public void afterSuit(){
         System.out.println("after Suite 运行了");
+    }
+
+
+    @BeforeTest
+    public void test(){
+        System.out.println("BeforeTest");
+    }
+
+    @AfterTest
+    public void afterTest(){
+        System.out.println("AfterTest");
     }
 }

@@ -16,7 +16,6 @@ public class BasicAnnotation {
     public void testcase2(){
         System.out.println("这是测试用例2");
     }
-
     @BeforeMethod
     public  void beforeMethod(){
         System.out.println("BeforeMethod这是在测试方法之前运行的");
