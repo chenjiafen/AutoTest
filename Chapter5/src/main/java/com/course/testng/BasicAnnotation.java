@@ -37,4 +37,15 @@ public class BasicAnnotation {
         System.out.println("AfterClass这是子类运行之后运行的");
 
     }
+
+    @BeforeSuite
+    public  void beforeSuit(){
+        System.out.println("BeforeSuit测试套件");
+
+    }
+
+    @AfterSuite
+    public void afterSuit(){
+        System.out.println("AfterSuit测试套件");
+    }
 }
