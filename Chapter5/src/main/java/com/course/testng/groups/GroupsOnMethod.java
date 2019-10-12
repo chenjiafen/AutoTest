@@ -40,4 +40,15 @@ public class GroupsOnMethod {
         System.out.println("这是服务端组运行之后运行的方法！！！！");
     }
 
+    @BeforeGroups("client")
+    public void beforeGroupOnClient(){
+        System.out.println("这是客户端之前运行的方法****");
+
+    }
+
+    @AfterGroups("client")
+    public void afterGroupOnClient(){
+        System.out.println("这是客户端之后运行的方法****");
+
+    }
 }
