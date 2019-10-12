@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e100deb6-7473-49f8-b8b8-07dfbeb31f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnGroup3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/groupOnClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/groupOnClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/groupOnClass.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnClass1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="e#210#211#0" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/groupOnClass.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="149">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -325,32 +321,11 @@
       <option name="presentableId" value="Default" />
       <updated>1570796566720</updated>
       <workItem from="1570796571311" duration="746000" />
-      <workItem from="1570843733901" duration="6309000" />
+      <workItem from="1570843733901" duration="7349000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupsOnMethod - 2019.10.11 at 20h 31m 14s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupsOnMethod - 2019.10.12 at 15h 06m 36s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupsOnMethod - 2019.10.12 at 15h 29m 24s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupsOnMethod_(1) - 2019.10.12 at 15h 29m 50s.xml">
-      <configuration name="GroupsOnMethod (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 16h 51m 57s.xml">
-      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 16h 54m 19s.xml">
-      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupOnClass1 - 2019.10.12 at 16h 59m 04s.xml">
-      <configuration name="GroupOnClass1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 16h 59m 13s.xml">
       <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
     </history-entry>
@@ -360,9 +335,30 @@
     <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_suite_xml - 2019.10.12 at 17h 00m 52s.xml">
       <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/suite.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 02m 54s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 14m 05s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 16m 13s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 17m 45s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 18m 37s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 18m 47s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_chenjiafeng_项目包_AutoTest_Chapter5_src_main_resources_groupOnClass_xml - 2019.10.12 at 17h 20m 10s.xml">
+      <configuration name="/Users/chenjiafeng/项目包/AutoTest/Chapter5/src/main/resources/groupOnClass.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7055000" />
+    <option name="totallyTimeSpent" value="8095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1440" height="877" extended-state="0" />
@@ -377,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.59617835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,17 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnClass1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnGroup3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -455,10 +440,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/groupOnClass.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/course/testng/groups/GroupOnClass1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/groupOnClass.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
